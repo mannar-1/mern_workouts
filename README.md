@@ -9,9 +9,14 @@ frontend have front end code which uses react
 backend have server code uses mongoose (database)and node,express (middleware)
 ------------------------------------------------------------------------------------------------------------------
 To Run project run following commands:
-
-$cd frontend
-
-$npm start
-
+1)start backend server by running below commands:
+open a terminal 
+   $cd backend
+   $npm run dev
+2)start clint side server (our react application) by running below commands:
+  $cd frontend
+  $npm start
+  
+Note-make sure you start backend server first
 --------------------------------------------------------------------------------------------------------------------------------------
+Thank you
