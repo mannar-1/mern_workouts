@@ -13,6 +13,10 @@ To Run project run following commands:
 open a terminal 
    $cd backend
    $npm run dev
+   
+----------------------------------------------------------------------------------------------------------------------------   
+   
+   
 2)start clint side server (our react application) by running below commands:
   $cd frontend
   $npm start
