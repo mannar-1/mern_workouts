@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { WorkoutsContextProvider } from './context/WorkoutContext';
+//import { WorkoutsContextProvider } from './context/WorkoutContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <WorkoutsContextProvider>
+  // <React.StrictMode>
+  //   <WorkoutsContextProvider>
     <App />
-    </WorkoutsContextProvider>
-  </React.StrictMode>
+  //   </WorkoutsContextProvider>
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
